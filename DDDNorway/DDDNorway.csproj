@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
@@ -11,6 +11,50 @@
   <PropertyGroup>
     <UserSecretsId>aspnet-DDDNorway-691a7229-ae08-48d2-9c51-993d78122520</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\lib\font-awesome\css\font-awesome.css" />
+    <Content Include="wwwroot\lib\font-awesome\css\font-awesome.min.css" />
+    <Content Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="wwwroot\lib\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\lib\font-awesome\less\animated.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\bordered-pulled.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\core.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\fixed-width.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\font-awesome.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\icons.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\larger.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\list.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\mixins.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\path.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\rotated-flipped.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\screen-reader.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\stacked.less" />
+    <Content Include="wwwroot\lib\font-awesome\less\variables.less" />
+    <Content Include="wwwroot\lib\font-awesome\scss\font-awesome.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_animated.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_core.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_icons.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_larger.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_list.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_mixins.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_path.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_stacked.scss" />
+    <Content Include="wwwroot\lib\font-awesome\scss\_variables.scss" />
+    <Content Include="wwwroot\lib\magnific-popup\jquery.magnific-popup.js" />
+    <Content Include="wwwroot\lib\magnific-popup\jquery.magnific-popup.min.js" />
+    <Content Include="wwwroot\lib\magnific-popup\magnific-popup.css" />
+    <Content Include="wwwroot\lib\scrollreveal\scrollreveal.js" />
+    <Content Include="wwwroot\lib\scrollreveal\scrollreveal.min.js" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
